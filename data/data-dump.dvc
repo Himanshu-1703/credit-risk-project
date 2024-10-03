@@ -1,0 +1,6 @@
+outs:
+- md5: 1bdb1be4d89e9a920d8d3163409f1136.dir
+  size: 18663900
+  nfiles: 3
+  hash: md5
+  path: data-dump

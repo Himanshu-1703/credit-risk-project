@@ -1,0 +1,15 @@
+numpy
+matplotlib
+pandas
+seaborn
+plotly
+dagshub
+mlflow
+hyperopt
+optuna
+scikit-learn
+scipy
+statsmodels
+feature-engine
+notebook
+dvc

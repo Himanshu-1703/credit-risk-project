@@ -1,0 +1,8 @@
+stages:
+  merge_data:
+    cmd: python .\src\data\merge_data.py
+    deps:
+    - .\data\data-dump\
+    - .\src\data\merge_data.py
+    outs:
+    - .\data\raw\

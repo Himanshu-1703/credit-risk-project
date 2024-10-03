@@ -1,0 +1,20 @@
+schema: '2.0'
+stages:
+  merge_data:
+    cmd: python .\src\data\merge_data.py
+    deps:
+    - path: .\data\data-dump\
+      hash: md5
+      md5: 1bdb1be4d89e9a920d8d3163409f1136.dir
+      size: 18663900
+      nfiles: 3
+    - path: .\src\data\merge_data.py
+      hash: md5
+      md5: 7461f3d3620dacb9e26f9a7b879251a7
+      size: 1324
+    outs:
+    - path: .\data\raw\
+      hash: md5
+      md5: 7713efcefe599bba5fd1f14b9e2562ce.dir
+      size: 14745955
+      nfiles: 1
